@@ -1,0 +1,82 @@
+.bg{
+    background-image: url('rockbg.jpg');
+}
+.bg2{
+    background-image: url('popbg.jpg');
+}
+.bg3{
+    background-image: url('lofibg.jpg');
+    
+}
+
+body{
+background-attachment: fixed;
+background-size: 100% 100%;
+color: azure;
+line-height: 125%;
+}
+
+h1{
+    text-align: center;
+    text-shadow: 4px 4px 6px azure;
+font-size: 50px;
+-webkit-text-stroke: 1.5px gainsboro;
+}
+h2{
+    text-shadow: 4px 4px 6px azure;
+}
+
+p{
+    text-align: justify;
+    width: 370px; 
+}
+
+p::first-letter{
+    margin-left: 20px;
+}
+
+.kep{
+    width: 200px;
+
+}
+li{
+    margin-top: 10px;
+    text-align: justify;
+}
+.ball {
+    float: left;
+}
+.jobb {
+    float: right ;
+
+}
+span{
+    padding-left: 200px;
+}
+#form{
+    background-color: rgba(255, 255, 255, 0.25);
+border: 1px dashed white;
+margin-left: 200px;
+padding-left: 30px;
+padding-right: 30px;
+}
+#form2{
+    background-color: rgba(255, 255, 255, 0.25);
+border: 1px dashed white;
+margin-left: 1000px;
+margin-right: 10px;
+padding-left: 30px;
+padding-right: 30px;
+padding-bottom: 30px;
+}
+img{
+    width:300px;
+}
+:link{
+    color: azure;
+    
+}
+:visited{
+    color: azure;
+    
+}
